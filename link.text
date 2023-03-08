@@ -1,0 +1,28 @@
+body{
+    background-color: rgb(251, 178, 126);
+}
+h1{
+    color: #fcf574;
+    background-color: rgb(255, 255, 255);
+}
+#show_sketch{
+    float: right;
+    font-size: 20px;
+}
+p{
+    padding-top: 10px;
+    font-size: 20px;
+    font-weight: bold;
+}
+@keyframes canvas_anime{
+    from{box-shadow: 1px 1px 48px #7e89fb; }
+    to{box-shadow: 1px 1px 48px #eb67fc;}
+}
+canvas{
+    border: 5px solid #bb7ff7;
+    border-radius: 20px;
+    animation-name: canvas_anime;
+    animation-duration: 4s;
+    margin-top: 50px;
+    animation-iteration-count: infinite;
+}
